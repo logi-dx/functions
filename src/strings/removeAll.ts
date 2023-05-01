@@ -1,0 +1,1 @@
+export const removeAll = (input: string, character: string): string => input.split("").filter((x: string) => x !== character).join("");
